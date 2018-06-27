@@ -1,0 +1,20 @@
+{
+  "name": "yeezy-cache-redis",
+  "version": "0.1.0",
+  "description": "A Redis Storage for Yeezy Cache",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Kyle Palko <kylepalko@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.3.4",
+    "@types/redis": "^2.8.6",
+    "yeezy-cache": "^0.3.0"
+  },
+  "dependencies": {
+    "redis": "^2.8.0"
+  }
+}
